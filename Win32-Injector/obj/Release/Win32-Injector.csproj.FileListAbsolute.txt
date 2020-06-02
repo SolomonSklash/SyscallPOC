@@ -1,0 +1,6 @@
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\obj\Release\Win32-Injector.csprojAssemblyReference.cache
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\obj\Release\Win32-Injector.csproj.CoreCompileInputs.cache
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\bin\Release\Win32-Injector.exe
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\bin\Release\Win32-Injector.pdb
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\obj\Release\Win32-Injector.exe
+C:\Users\ssklash\source\repos\Syscall01\Win32-Injector\obj\Release\Win32-Injector.pdb

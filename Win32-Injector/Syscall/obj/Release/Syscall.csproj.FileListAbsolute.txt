@@ -1,0 +1,12 @@
+C:\Users\ssklash\source\repos\Syscall01\Syscall\bin\Release\Syscall.exe
+C:\Users\ssklash\source\repos\Syscall01\Syscall\bin\Release\Syscall.pdb
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Release\Syscall.csproj.CoreCompileInputs.cache
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Release\Syscall.exe
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Release\Syscall.pdb
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Release\Syscall.csprojAssemblyReference.cache
+F:\Syscall01\Syscall\bin\Release\Syscall.exe
+F:\Syscall01\Syscall\bin\Release\Syscall.pdb
+F:\Syscall01\Syscall\obj\Release\Syscall.csprojAssemblyReference.cache
+F:\Syscall01\Syscall\obj\Release\Syscall.csproj.CoreCompileInputs.cache
+F:\Syscall01\Syscall\obj\Release\Syscall.exe
+F:\Syscall01\Syscall\obj\Release\Syscall.pdb

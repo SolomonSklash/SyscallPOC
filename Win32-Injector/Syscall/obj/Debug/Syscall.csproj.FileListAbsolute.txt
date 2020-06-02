@@ -1,0 +1,6 @@
+C:\Users\ssklash\source\repos\Syscall01\Syscall\bin\Debug\Syscall.exe
+C:\Users\ssklash\source\repos\Syscall01\Syscall\bin\Debug\Syscall.pdb
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Debug\Syscall.csprojAssemblyReference.cache
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Debug\Syscall.csproj.CoreCompileInputs.cache
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Debug\Syscall.exe
+C:\Users\ssklash\source\repos\Syscall01\Syscall\obj\Debug\Syscall.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Syscall", "Syscall\Syscall.csproj", "{1E54637B-C887-42A9-AF6A-B4BD4E28CDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32Injector", "Win32-Injector\Win32Injector.csproj", "{198D5599-D9FC-4A74-87F4-5077318232AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E54637B-C887-42A9-AF6A-B4BD4E28CDA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E54637B-C887-42A9-AF6A-B4BD4E28CDA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E54637B-C887-42A9-AF6A-B4BD4E28CDA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E54637B-C887-42A9-AF6A-B4BD4E28CDA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{198D5599-D9FC-4A74-87F4-5077318232AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198D5599-D9FC-4A74-87F4-5077318232AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198D5599-D9FC-4A74-87F4-5077318232AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198D5599-D9FC-4A74-87F4-5077318232AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B7E5C0E5-0908-46CB-A1A2-DBB9C2E80E96}
+	EndGlobalSection
+EndGlobal
