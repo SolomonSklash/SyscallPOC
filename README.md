@@ -1,2 +1,4 @@
 # SyscallPOC
-Shellcode injection POC using syscalls.
+A simple proof of concept shellcode injector using syscalls.
+
+https://www.solomonsklash.io/syscalls-for-shellcode-injection.html
