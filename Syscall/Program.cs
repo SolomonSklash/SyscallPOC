@@ -52,7 +52,7 @@ namespace Syscall
             {
                 var ntAllocResult = NtAllocateVirtualMemory(hCurrentProcess, ref pMemoryAllocation, pZeroBits, ref pAllocationSize, allocationType, protection);
                 Console.WriteLine($"[*] Result of NtAllocateVirtualMemory is {ntAllocResult}");
-                Console.WriteLine($"[*] Address of memory allocation is 0x{pMemoryAllocation}");
+                Console.WriteLine("[*] Address of memory allocation is " + string.Format("{0:X}", pMemoryAllocation));
             }
             catch
             {

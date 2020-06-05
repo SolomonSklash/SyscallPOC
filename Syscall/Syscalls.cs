@@ -27,6 +27,7 @@ namespace Syscall
             _In_ ULONG AllocationType,
             _In_ ULONG Protect
             ); */
+        /*   0x18 in all Windows 10 version so far   */
         static byte[] bNtAllocateVirtualMemory =
         {
             0x4c, 0x8b, 0xd1,               // mov r10,rcx
@@ -89,9 +90,11 @@ namespace Syscall
             // IN ULONG SizeOfStackReserve,                 // C#: uint
             // OUT LPVOID lpBytesBuffer                     // C#: IntPtr
             // );
+        /*   Windows 10 1909: 0xBD, Windows 10 2004: 0xC1   */
         static byte[] bNtCreateThreadEx =
         {
             0x4c, 0x8b, 0xd1,               // mov r10,rcx
+        //    0xb8, 0xc1, 0x00, 0x00, 0x00,   // mov eax,0BDh
             0xb8, 0xbd, 0x00, 0x00, 0x00,   // mov eax,0BDh
             0x0F, 0x05,                     // syscall
             0xC3                            // ret
@@ -161,6 +164,7 @@ namespace Syscall
              In_ BOOLEAN Alertable,
              In_opt_ PLARGE_INTEGER Time
              ); */
+        /*   0x4 in all Windows 10 versions so far   */
         static byte[] bNtWaitForSingleObject =
         {
             0x4c, 0x8b, 0xd1,               // mov r10,rcx
@@ -183,7 +187,6 @@ namespace Syscall
                     IntPtr memoryAddress = (IntPtr)ptr;
 
                     // Change memory access to RX for our assembly code
-                    //if (!VirtualProtect(memoryAddress, (UIntPtr)syscall.Length, (uint)AllocationProtect.PAGE_EXECUTE_READWRITE, out uint lpflOldProtect))
                     if (!VirtualProtectEx(Process.GetCurrentProcess().Handle, memoryAddress, (UIntPtr)syscall.Length, (uint)AllocationProtect.PAGE_EXECUTE_READWRITE, out uint oldprotect))
                         {
                         throw new Win32Exception();
