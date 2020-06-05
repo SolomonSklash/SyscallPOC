@@ -1,0 +1,5 @@
+Syscall/bin/Debug/Syscall.pdb
+Syscall/bin/Release/Syscall.pdb
+Syscall/obj/*
+Win32-Injector/bin/Release/Win32-Injector.pdb
+Win32-Injector/obj/*
